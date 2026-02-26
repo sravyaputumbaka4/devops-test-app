@@ -17,5 +17,5 @@ jobs:
               run: docker build -t testweb-app .
               
             - name: Run Container
-              run: docker run -d --name nibbi -p 8080:80 testweb-app
+              run: docker run -d --name testweb -p 8080:80 testweb-app
 
